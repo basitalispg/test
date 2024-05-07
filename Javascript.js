@@ -15,7 +15,7 @@ console.log(res);
 // if required we can ask for 2nd highest as well.
 
 // prototype concept in javascript ?
-// can you return empty object from filter method ? arr.filter((x)=> x > 0) returns string 'Filter method'.
+// can you return string from filter method ? arr.filter((x)=> x > 0) returns string 'Filter method'.
 
 Array.prototype.filter = function () {
   return 'Filter method'
